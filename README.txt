@@ -11,7 +11,7 @@ Preparation
 3. Create a database called "cards".
 4. Create the database tables by importing cards.sql script.
 5. Give all the privileges on cards database to user cards.
-6. Checkout the code from github repo: 
+6. Checkout the code from github repo: https://github.com/freydrey/cardslogicea
 7. Open the code from an IDE such as intellij or on command line run the CardsApplication.java file on the root of the project folder.The API will run on port 8085. 
 6. Open Postman application. 
 7. Import the collection file called: CARDS SPRING RESTFUL API.postman_collection
