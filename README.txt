@@ -1,7 +1,7 @@
 OPERATION MANUAL
 
 Requirements
-JDK 17, Mysql 8.1, Postman
+JDK 17, Mysql 8.1, Postman(Tested with version Version 4.9.3 on windows OS)
 
 Preparation
 1. Install JDK 17,Mysql 8.1 and Postman.
