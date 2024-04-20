@@ -1,0 +1,36 @@
+server:
+  port: 8085
+  error:
+    include-message: always
+
+logging.level.org.springframework.security: DEBUG
+
+auth:
+  secret-key: "foobar_12345678_foobar_12345678_foobar_12345678_foobar_12345678_foobar_12345678"
+
+cors:
+  allowed-origins: "*"
+  allowed-methods: "*"
+  allowed-headers: "*"
+  exposed-headers: "*"
+
+spring:
+  application:
+    name: cards
+  datasource:
+    url: jdbc:mysql://localhost:3306/cards?serverTimezone=UTC
+    username: cards
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      jdbc:
+        time_zone: UTC
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+    show-sql: true
+  main:
+    web-application-type: servlet
