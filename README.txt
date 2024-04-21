@@ -14,7 +14,7 @@ Preparation
 6. Checkout the code from github repo: https://github.com/freydrey/cardslogicea
 7. Open the code from an IDE such as intellij or on command line run the CardsApplication.java file on the root of the project folder.The API will run on port 8085. 
 6. Open Postman application. 
-7. Import the collection file called: CARDS SPRING RESTFUL API.postman_collection
+7. From the Collection menu select import. Select the collection file called: CARDS SPRING RESTFUL API.postman_collection to import.
 
 POSTMAN API OPERATIONS
 User Registration [Note: The users have already been added to the database]
